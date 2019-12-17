@@ -1,5 +1,5 @@
 <template>
-  <div class="scroll" ref="debounce_w" :class="{'overhidden':spinShow}">
+  <div ref="debounce_w" :class="{'overhidden':spinShow}">
     <ul ref="debounce_child">
       <slot></slot>
       <div class="message">{{message}}</div>

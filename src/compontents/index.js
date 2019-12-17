@@ -23,11 +23,11 @@ if (typeof window !== 'undefined' && window.Vue) {
   install(window.Vue);
 }
 
-export default {
-  install,
-  vDebounce
-  // ...如果还有的话继续添加
-}
+// export default {
+//   install,
+//   vDebounce
+//   // ...如果还有的话继续添加
+// }
 // export const a = ()=>{
 
 // }

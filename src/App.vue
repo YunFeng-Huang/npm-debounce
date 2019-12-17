@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <Debounce
+    <v-debounce
       :page="page"
       :pageSize="pageSize"
       :total="total"
@@ -18,12 +18,12 @@
         <div>1</div>
         <div>1</div>
       </li>
-    </Debounce>
+    </v-debounce>
   </div>
 </template>
 
 <script>
-import Debounce from './compontents/debounce'; // 引入
+import vDebounce from './compontents/debounce'; // 引入
 export default {
   name: 'app',
   data () {
@@ -40,7 +40,7 @@ export default {
     },
   },
   components:{
-    Debounce
+    vDebounce
   }
 }
 </script>
